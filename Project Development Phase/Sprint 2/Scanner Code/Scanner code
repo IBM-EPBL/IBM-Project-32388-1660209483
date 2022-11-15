@@ -27,7 +27,7 @@ while True:
             #print (a)
             try:
                 response = service.get_document(
-                db='bookings',
+                db='booking',
                 doc_id = a
                 ).get_result()
                 print (response)
